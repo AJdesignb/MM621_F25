@@ -16,5 +16,5 @@ This is _Emphasized Text_
 
 This is an image below
 
-![This is a picture of a dog](https://www.reddit.com/r/goldenretrievers/comments/10pj4ng/first_time_golden_retrieverdog_owner_any_tips/#lightbox)
+![This is a picture of a dog](https://cdn.cdnstep.com/DkVh8JFXAujhfGjeWxmm/0.thumb128.webp)
 
