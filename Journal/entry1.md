@@ -29,4 +29,5 @@ A conceptual model is a simplified mental picture of how something works, formed
 
 ***the whole automobile and telephone example***
 
+****
 
