@@ -12,6 +12,9 @@ Chapter one talks about how poor design in everyday objects can create a lot of 
 > The correct parts must be visible, and they must convey the correct message. (Pg 4. DOET)
 > Visibility indicates the mapping between intended actions and actual Operations. It indicates crucial distinctions. (Pg 8. DOET)
 ***e.g. The door example, Flat plate for pushing and handle for pulling.***
+
+**Feedback**
+Users need to know their action had an effect. A click, light, or sound reassures them. Without feedback, users repeat actions or assume something went wrong.
                
 **Affordances** : 
 Objects should make their possible actions obvious. ***chair eg***
@@ -29,5 +32,14 @@ A conceptual model is a simplified mental picture of how something works, formed
 
 ***the whole automobile and telephone example***
 
-****
+**Mapping**
+> Mapping is a technical term meaning the relationship between two things. (pg 23. DOET)
+***car wheel example***
+
+**Natural Mappings**
+The relationship between control and fuction should be apparent to the user. One control one fuction.
+
+
+<ins>**The Paradox of Technology**<ins/>
+The same technology that simpliefies life by providing more functions in each device has also complicated life by making the device harder to learn and harder to use.
 
