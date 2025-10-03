@@ -1,19 +1,29 @@
 let birdy;
 let birdyTwo;
-let grass;
-let r, g, b;
-let cloudA1x, cloudA2x;
-let cloudSpeed = 1;
-let font;
-
+let angryBirdy;
 // Birdy position & speed
 let birdX, birdY;
-let birdSpeedX = 0.8;   // automatic right movement
+let birdSpeedX = 1.5;   // automatic right movement
 let birdMoveStep = 15; // how far bird moves up/down per key press
+let isAngry = false; //tracks if birdy is angry yet
+let angryTimer = 0; //When the birdy hits the brick
+
+let grass;
+
+let cloudA1x, cloudA2x;
+let cloudSpeed = 1;
+let skyColor;
+let bgColor;
+
+let font;
+let r, g, b;
+
+let bricks = [];
 
 function preload() {
   birdy = loadImage("Birdy.png");
   birdyTwo = loadImage("Birdy 2.png");
+  angryBirdy = loadImage("angry birdy.png");
   grass = loadImage("Asset 1.png");
   font = loadFont('Super Dream.ttf');
 }
@@ -29,13 +39,19 @@ function setup() {
   // Bird starting position
   birdX = 100;       // near the left side
   birdY = 400;       // vertically centered
+  
+  // Initial Background Color
+  bgColor = color(255);
+  skyColor = color(111, 0, 255); //prple
+
+  randomizeBricks(); //calling bricks
 }
 
 function draw() {
-  background(255);
+  background(bgColor);
 
   // ---------- SKY ----------
-  fill(111, 0, 255);
+  fill(skyColor);
   noStroke();
   rect(0, 0, 800, 600);
 
@@ -51,13 +67,13 @@ function draw() {
 
   // --------- INSTRUCTIONS ---------
   textFont (font);
-  textSize(43);
+  textSize(40);
   fill(255, 231, 151);
   noStroke();
-  // strokeWeight(5);
-  text('Use the UP & DOWN arrow keys', 90, 650);
+  text('Use the UP & DOWN arrow keys', 110, 630);
   textSize(35);
-  text('to save birdy from bumping into the bricks', 50, 700);
+  text('to save birdy from bumping into the bricks', 50, 680);
+  text('press B to change background colors', 100, 730);
 
   // ---------- BORDER ----------
   let c = [0, 126, 255, 102];
@@ -97,27 +113,48 @@ function draw() {
   stroke(184, 124, 76);
   strokeWeight(6);
   fill(123, 64, 25);
-  rect(590, 295, 100, 50);
-  rect(390, 135, 100, 50);
-  rect(210, 375, 100, 50);
+  for (let brick of bricks) {
+    rect (brick.x, brick.y, 100, 50);
+  }
+  // rect(590, 295, 100, 50);
+  // rect(390, 135, 100, 50);
+  // rect(210, 375, 100, 50);
 
   // ---------- BIRDY ----------
   imageMode(CENTER);
   image(birdy, 50, 750, 200, 200);
   image(birdyTwo, 730, 790, 200, 200);
-  image(birdy, birdX, birdY, 300, 300);
 
-  // Move birdy automatically to the right
-  birdX += birdSpeedX;
+  let currentBirdy = isAngry ? angryBirdy : birdy;
+  image(currentBirdy, birdX, birdY, 300, 300);
 
-  // Restart birdy when it reaches the end
-  if (birdX > width + 150) { // small buffer time for birdy to return
-    birdX = 100;   // reset to starting point x
-    birdY = 400;   // reset to center
+  // Move birdy automatically to the right if she is not angry
+  if (!isAngry) {
+    birdX += birdSpeedX;
+  }
+
+  // Restart when bird crosses screen (new round)
+  if (birdX > width + 150) {
+    resetGame();
   }
 
   // just to keep birdy inside screen vertically as well
-  birdY = constrain(birdY, 150, height - 150);
+  birdY = constrain(birdY, 50, height - 50);
+
+  // ---------- COLLISION DETECTION ----------
+  for (let brick of bricks) {
+    if (
+      birdX + 50 > brick.x && birdX - 50 < brick.x + 10 && // X overlap
+      birdY + 50 > brick.y && birdY - 50 < brick.y + 10    // Y overlap
+    ) {
+      triggerAngryMode();
+    }
+
+  // ---------- HANDLE ANGRY TIMER ----------
+  if (isAngry && millis() - angryTimer > 1000) { // after 1 second
+    resetGame();
+    }
+  }
 }
 
 // Draws clouds and handles their motion
@@ -137,13 +174,13 @@ function drawClouds() {
   drawCloudShapes();
   pop();
 
-  cloudA1x += cloudSpeed;
-  cloudA2x += cloudSpeed;
+  cloudA1x -= cloudSpeed;
+  cloudA2x -= cloudSpeed;
 
-  if (cloudA1x >= width + width / 2) 
-    {cloudA1x = -width / 2;}
-  if (cloudA2x >= width + width / 2) 
-    {cloudA2x = -width / 2;}
+  if (cloudA1x <= - width / 2) 
+    {cloudA1x = width + width / 2;}
+  if (cloudA2x <= - width / 2) 
+    {cloudA2x = width + width / 2;}
 }
 
 // Cloud shape definition
@@ -157,11 +194,40 @@ function drawCloudShapes() {
   rect(150, 400, 500, 160);
 }
 
-// Handle key presses
+// All the key presses
 function keyPressed() {
   if (keyCode === UP_ARROW) {
     birdY -= birdMoveStep;
   } else if (keyCode === DOWN_ARROW) {
     birdY += birdMoveStep;
+  } else if (key === 'b' || key === 'B') {
+    skyColor = color(random(255), random(255), random(255)); // change sky color randomly
+  }
+}   
+
+function randomizeBricks() {
+  bricks = [];
+  for (let i = 0; i < 3; i++) { // 3 bricks
+    let bx = random(100, width - 200); //some margin from the edges
+    let by = random(100, height - 300); //space from top and bottom
+    bricks.push({x: bx, y: by});
   }
 }
+
+//Reset game after angry birdy or round end
+function resetGame() {
+  isAngry = false;
+  birdX = 100;
+  birdY = 400;
+  randomizeBricks();
+ }
+
+
+ // Trigger angry mode when collision happens
+function triggerAngryMode() {
+  if (!isAngry) {
+    isAngry = true;
+    angryTimer = millis();
+  }
+}
+
