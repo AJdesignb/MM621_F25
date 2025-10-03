@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(38, 35, 35);
+  text-align: center;
+  color: plum;
+  font-family: Georgia, 'Times New Roman'
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
