@@ -51,5 +51,15 @@ Together, they create a **feedback cycle**:
 > Simple design cues (like “M+” or “Store” buttons labeled clearly) would have helped.
 > Lesson: users shouldn’t need a manual for simple actions.
 
+### 4. Memory and the World as an External Mind
+
+People use the environment to remember:
+Lists, sticky notes, and physical arrangements serve as external memory aids.
+> Example: leaving an object by the door as a reminder to take it with you.
+
+Designers can support this by making ***information visible at the right time.***
+
+
+
 
 
