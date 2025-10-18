@@ -30,7 +30,26 @@ Together, they create a **feedback cycle**:
 > Example: A confusing remote control where it’s unclear which button starts the DVD.
 
 **Gulf of Evaluation** - The gap between what actually happened and how easily the user can interpret it.
+> Example: Pressing a button and not knowing if the device turned on because there’s no light or sound feedback.
+
+> Example: THE REFRIGERATOR & FREEZER
+> Norman describes a refrigerator with two compartments and two temperature controls, but no clear mapping between them.
+>
+> Users often think one control is for the refrigerator and one for the freezer — but both actually affect both compartments.
+> Result: confusion, overcompensation, and frustration.
+> Lesson: The system’s design should reflect the mental model users are likely to have.
+
+### 3. Knowledge in the Head vs. Knowledge in the World
+
+**Knowledge in the head** → what users must remember (e.g., password, sequence, procedure).
+**Knowledge in the world** → what the design makes visible (e.g., labels, shapes, affordances).
+
+> Example: TELEPHONES (Old vs. New)
+> Norman discusses telephones with memory buttons:
 > 
+> Early users forgot to store numbers or how to use memory functions — they didn’t match users’ conceptual models.
+> Simple design cues (like “M+” or “Store” buttons labeled clearly) would have helped.
+> Lesson: users shouldn’t need a manual for simple actions.
 
 
 
