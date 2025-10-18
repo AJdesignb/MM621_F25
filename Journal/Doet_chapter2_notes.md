@@ -59,6 +59,23 @@ Lists, sticky notes, and physical arrangements serve as external memory aids.
 
 Designers can support this by making ***information visible at the right time.***
 
+### 5. Slips vs. Mistakes
+
+**Slips → Right intention, wrong action.**
+Often occur during routine behavior or distractions.
+> Example: Typing “teh” instead of “the”, or turning the wrong stove knob.
+
+**Types of slips:**
+1. Capture errors – a frequent action takes over a less frequent one (e.g., driving to work instead of the store).
+2. Description errors – acting on the wrong object that’s similar (e.g., throwing dirty clothes in the toilet instead of the hamper).
+3. Data-driven errors – external stimuli influence your action (e.g., dialing numbers from an ad while meaning to call a friend).
+4. Associative activation errors – internal thoughts trigger wrong actions (e.g., saying “You too” to a waiter saying “Enjoy your meal”).
+5. Loss-of-activation errors – forgetting what you were doing mid-task.
+6. Mode errors – same control does different things in different modes (e.g., hitting “Delete” in the wrong app mode).
+
+**Mistakes → Wrong goal or plan.**
+Caused by incorrect understanding or faulty reasoning.
+> Example: Adjusting the refrigerator’s “freezer” dial to make the fridge colder, not realizing the controls are linked.
 
 
 
