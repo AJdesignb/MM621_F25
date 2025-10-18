@@ -17,8 +17,20 @@ When a person interacts with the world, their behavior follows a psychological l
 
 **The Stages of Evaluation**
 5. Perceiving the system state — noticing what happened.
-6. Interpreting the system state — understanding what it means.
+6. Interpreting the system state - understanging what it means
 7. Evaluating the outcome — comparing to the goal.
+
+Together, they create a **feedback cycle**:
+
+***Goal → Intention → Action → Feedback → Evaluation → New Goal***
+
+### 2. Two Key Concepts: THE GULFS
+
+**Gulf of Execution** - The gap between what the user wants to do and what actions the system allows.
+> Example: A confusing remote control where it’s unclear which button starts the DVD.
+
+**Gulf of Evaluation** - The gap between what actually happened and how easily the user can interpret it.
+> 
 
 
 
