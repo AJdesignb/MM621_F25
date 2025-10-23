@@ -23,4 +23,22 @@ Information **built into the environment** or object itself, visible cues that r
 > 2. A knob that clearly controls a burner in the same position.
 > 3. A light that shows a device is on.
 
-**Advantages:** 
+**Advantages:** Reduces memory load; helps new or infrequent users.
+**Disadvantages:** Can clutter the design; users may become dependent on visual prompts.
+
+***Good design balances both — enough knowledge in the world to help people act correctly, but not so much clutter that it’s overwhelming.
+When designs are intuitive, users rely less on memory and more on natural cues.***
+
+### 2. Four kinds of CONSTRAINTS
+
+Constraints help narrow down possible actions and guide correct behavior. Norman identifies four types:
+
+**1. PHYSICAL CONSTRAINTS:** 
+The physical shape or structure limits what actions are possible.
+
+> EXAMPLES:
+> A USB plug fits only one way
+> Lego bricks connect only via studs.
+
+
+
