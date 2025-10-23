@@ -61,7 +61,7 @@ Derived from reasoning about relationships and possibilities.
 
 ***Together, these constraints make designs discoverable, users can figure out what to do even without instructions.***
 
-### 2. Cultural Norms, Conventions, & Standards
+### 3. Cultural Norms, Conventions, & Standards
 
 **CULTURAL NORMS:**
 Cultural norms are shared expectations within a culture about appropriate actions.
@@ -80,6 +80,38 @@ Standards formalize conventions — they become industry-wide rules.
 > Standardized symbols for power (⏻), USB, Wi-Fi; standard side of the road for driving.
 
 ***Designs work best when they respect cultural norms and conventions, because users bring those expectations to every new product.***
+
+### 4. Applying Affordances, Signifiers, and Constraints to Everyday Objects (The Problem with Doors)
+
+**AFFORDANCES:** What actions an object allows (e.g., a handle affords pulling).
+**SIGNIFIERS:** Cues or signals that indicate where the action should happen (e.g., a flat plate signifies pushing).
+**CONSTRAINTS:** Limit possible actions to guide correct use.
+
+**The Problem with Doors (a.k.a. “Norman Doors”):**
+- Many doors look the same for push and pull.
+- A handle affords pulling — so when a “push” door has a handle, users pull incorrectly.
+- This is a signifier failure: the visible design gives misleading cues.
+- Adding a “Push” or “Pull” label compensates for bad design — it’s a bandage, not a fix.
+
+***Good design: uses clear signifiers (like a plate on a push door) and constraints (no handle on push side) so the correct action is obvious without words.***
+
+**The Problem with Switches:**
+
+- Poor mapping and lack of constraints make switches confusing.
+> Example: A panel of six identical light switches — you don’t know which controls which light.
+- The logical constraint is missing because layout doesn’t match physical space.
+- Users must rely on knowledge in the head (memory) instead of visible mapping.
+- A good design would spatially arrange switches to match their lights, or use labeling and feedback (lights turning on instantly).
+
+### 5. Activity-Centered Controls
+
+- Instead of organizing controls by object, organize them by activity or goal.
+> Example: In a car — instead of separate buttons for AC, fan, and temperature, one “comfort” control adjusts all automatically.
+- This reduces complexity by aligning controls with what users want to do, not how the system works.
+- Encourages discoverability — users can focus on purpose, not mechanism.
+
+***Design should match human tasks, not force users to think like machines.***
+
 
 
 
