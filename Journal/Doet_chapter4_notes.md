@@ -79,5 +79,9 @@ Standards formalize conventions — they become industry-wide rules.
 > EXAMPLE:
 > Standardized symbols for power (⏻), USB, Wi-Fi; standard side of the road for driving.
 
+***Designs work best when they respect cultural norms and conventions, because users bring those expectations to every new product.***
+
+
+
 
 
