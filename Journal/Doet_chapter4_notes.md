@@ -112,6 +112,12 @@ Standards formalize conventions — they become industry-wide rules.
 
 ***Design should match human tasks, not force users to think like machines.***
 
+### HERE'S A LINK TO THE SLIDES FOR THE [IN-CLASS GROUP ACTIVITIES](https://www.canva.com/design/DAG2XY17Ddo/K4V6rjKV2eqM-41vNXRw0Q/edit?utm_content=DAG2XY17Ddo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+And here's a fun [Puzzle](https://puzzel.org/en/crossword/play?p=-Oc42xxP7z4ZEcQEOATI)
+
+  
+
 
 
 
