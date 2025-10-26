@@ -21,6 +21,8 @@ This is an image below
 Check out my notes on my readings 
 
 [Chapter 1](https://github.com/AJdesignb/MM621_F25/blob/main/Journal/Doet_chapter1_notes)
+
 [Chapter 2](https://github.com/AJdesignb/MM621_F25/blob/main/Journal/Doet_chapter2_notes)
+
 [Chapter 4](https://github.com/AJdesignb/MM621_F25/blob/main/Journal/Doet_chapter4_notes)
 
