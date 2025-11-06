@@ -118,8 +118,26 @@ And here's a fun [Puzzle](https://puzzel.org/en/crossword/play?p=-Oc42xxP7z4ZEcQ
 
 ### 6. Contraints thet force teh Desired Behavior
 
+**FORCING FUNCTIONS:** A forcing function is an extreme form of physical constraint: an action is required (or a stage completed) before the next can proceed if you fail at one stage, you cannot move on.
+Under this umbrella there are three specific mechanisms:
 
+**1. Interlocks:** These force operations to occur in a correct sequence. For example, you cannot proceed to checkout until you’ve filled in shipping & billing info.
 
+**2. Lock-Ins:** These keep an operation active, preventing premature termination. E.g., a dialog box that forces you to save changes before closing a document.
+
+**3. Lock-outs:** These prevent an action, access, or entry until certain conditions are met (or prohibit a certain action once something has happened).
+
+_Why Use them ?_
+Because they help guide the user toward the correct behaviour by preventing wrong or incomplete actions. They effectively force the system to move or the user to act in a certain way.
+
+**Caveats / things to watch:** Forcing functions can frustrate users if over-used, or if they feel constrained unnecessarily. Also, users may try to bypass them if they feel too rigid. Good design uses them judiciously.
+
+> Example:
+> - An oven whose door will not open until the heating cycle finishes (an interlock).
+> - A software dialog that won’t let you exit without saving (lock-in).
+> - A security gate that won’t let you exit until you’ve completed a required step (lock-out).
+
+These mechanisms help reduce errors and enforce correct workflows in systems where correctness is crucial.
 
 
   
