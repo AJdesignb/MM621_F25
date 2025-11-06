@@ -163,6 +163,14 @@ There are 4 kinds of constraints:
 
 Designers need to consciously choose constraints, affordances, signifiers and mappings to produce intuitive, safe, and error‐resistant design.
 
+***How these pieces tie together & key takeaways***
+
+- Forcing functions are a subset of constraints, powerful because they force correctness or prevent incorrect action.
+- But constraints alone don’t suffice for good design: they must combine with discoverability _(can the user figure out what to do?)_, affordances/signifiers _(is the possible action visible/clear?)_, and feedback _(does the user know what happened?)._
+- Conventions matter: it’s often better to follow standard patterns and designs _(so users bring prior knowledge)_ unless there’s a compelling reason to deviate and then the transition must be well managed.
+- The legacy problem means that even if a new constraint or convention is “better”, its success depends on ecosystem adoption and user acceptance.
+- Strong constraints _(forcing functions, etc.)_ can reduce errors but can also reduce flexibility and user autonomy, so trade‐offs matter.
+
 
 
 
