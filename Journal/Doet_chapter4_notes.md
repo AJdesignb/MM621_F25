@@ -157,7 +157,13 @@ There are 4 kinds of constraints:
 
 **4. CONVENTIONS:** are well‐established norms or standards in design and use; leveraging them helps users by tapping into familiar behaviour. But changing conventions is hard.
 
-  
+**5. LEGACY PROBLEM:** Changing constraints/conventions is difficult because so many products and systems adopt the old standard; users also have learned the old way.
+
+**6. MAPPING, FEEDBACK, DISCOVERABILITY:** are all tied into how affordances, signifiers, constraints work together so the user knows what to do.
+
+Designers need to consciously choose constraints, affordances, signifiers and mappings to produce intuitive, safe, and error‐resistant design.
+
+
 
 
 
