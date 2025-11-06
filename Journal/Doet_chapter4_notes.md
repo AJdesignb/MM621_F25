@@ -128,6 +128,7 @@ Under this umbrella there are three specific mechanisms:
 **3. Lock-outs:** These prevent an action, access, or entry until certain conditions are met (or prohibit a certain action once something has happened).
 
 _Why Use them ?_
+
 Because they help guide the user toward the correct behaviour by preventing wrong or incomplete actions. They effectively force the system to move or the user to act in a certain way.
 
 **Caveats / things to watch:** Forcing functions can frustrate users if over-used, or if they feel constrained unnecessarily. Also, users may try to bypass them if they feel too rigid. Good design uses them judiciously.
@@ -139,6 +140,22 @@ Because they help guide the user toward the correct behaviour by preventing wron
 
 These mechanisms help reduce errors and enforce correct workflows in systems where correctness is crucial.
 
+### 7. Conventions, Constraints, and Affordances ###
+
+**1. CONSTRAINTS:** (broader than forcing functions) restrict the set of possible actions; they make some actions impossible, thereby reducing user error.
+
+There are 4 kinds of constraints:
+
+- Physical Constraints: Tangible barriers (shape, size, alignment) that limit how something can be used.
+- Cultural Constraints: Actions limited by social conventions or norms (what one “should” do).
+- Semantic Constraints: Based on meaning of the situation or object (the affordance semantics).
+- Logical Constraints: Based on logic of a system, sequence or structure of parts.
+
+**2. AFFORDANCES:** are what the object allows you to do (e.g., a handle affords pulling).
+
+**3. SIGNIFIERS:** are cues showing where actions should be taken (e.g., a push plate on a door).
+
+**4. CONVENTIONS:** are well‐established norms or standards in design and use; leveraging them helps users by tapping into familiar behaviour. But changing conventions is hard.
 
   
 
