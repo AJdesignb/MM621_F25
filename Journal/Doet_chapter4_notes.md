@@ -116,6 +116,12 @@ Standards formalize conventions — they become industry-wide rules.
 
 And here's a fun [Puzzle](https://puzzel.org/en/crossword/play?p=-Oc42xxP7z4ZEcQEOATI)
 
+### 6. Contraints thet force teh Desired Behavior
+
+
+
+
+
   
 
 
