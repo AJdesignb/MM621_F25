@@ -26,3 +26,4 @@ Check out my notes on my readings
 
 [Chapter 4](https://github.com/AJdesignb/MM621_F25/blob/main/Journal/Doet_chapter4_notes)
 
+[Chapter 5](https://ajdesignb.github.io/MM621_F25/Journal/Doet_chapter5_notes)
