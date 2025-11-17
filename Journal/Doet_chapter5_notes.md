@@ -80,3 +80,13 @@ Forgetting key information that affects the plan or goal formation.
 - Encourage **error reporting and learning** rather than blame: Systems should help uncover root causes rather than punish individuals. The method of “Five Whys” is mentioned _(asking “why?” repeatedly to get to root cause)._
 - Provide **resilience engineering**: systems should be robust in the face of error, allow users to intervene, and recover from faults.
 
+> Norman uses examples from domains like aviation, nuclear power, industrial control to show how design failures lead to major accidents. _(e.g., a misdiagnosis at Three Mile Island)_.
+> Everyday product examples too: e.g., control panels where wrong button triggers an action, doors that mislead, etc. — showing how “bad design” often underlies what we perceive as user mistakes.
+
+### What are my Key Take-Aways:
+- Blaming the user _(“they pressed the wrong button”)_ misses the opportunity to redesign the system to prevent such errors.
+- Errors will happen, the question is how design mitigates them: through good feedback, forcing functions, constraints, clear mappings, signifiers, and conceptual models.
+- Automation is not a panacea, human-machine collaboration must be designed carefully to maintain awareness, control, and ability to intervene.
+- Organisations should build systems of learning from error rather than hiding them. A culture of _“why did this happen?”_ rather than _“who screwed up?”_
+- Good design acknowledges human fallibility and builds preventive and corrective measures into the product or system.
+
