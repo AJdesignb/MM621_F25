@@ -2,19 +2,9 @@
 
 Hello, My name is Aashi and welcome to my repo!
 
-This is a seperate paragraph! Lorem ipsum
+### I love Dogs,
 
-This is a link! -> [Check out this site](https://bongo.cat)
-
-## This is the TEXT section
-
-This is **Bold TEXT**
-
-This is _Emphasized Text_
-
-### This is the IMAGE section
-
-This is an image below
+This is an image of a Golden below
 
 ![This is a picture of a dog](https://cdn.cdnstep.com/DkVh8JFXAujhfGjeWxmm/0.thumb128.webp)
 
