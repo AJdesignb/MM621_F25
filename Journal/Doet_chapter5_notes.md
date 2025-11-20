@@ -90,3 +90,34 @@ Forgetting key information that affects the plan or goal formation.
 - Organisations should build systems of learning from error rather than hiding them. A culture of _“why did this happen?”_ rather than _“who screwed up?”_
 - Good design acknowledges human fallibility and builds preventive and corrective measures into the product or system.
 
+### Designing for Error: 
+
+Errors are inevitable — So design must anticipate them, mitigate their effects, and help users recover.
+> Norman insists: _“Human error is a misnomer — most accidents are the result of poor design.”_
+
+**a. Error-tolerant design:**
+Designers should assume that users will make mistakes and systems will fail occasionally.
+**Goal:** prevent error from leading to catastrophe.
+**Example:** A car key that cannot be removed unless the vehicle is in “Park.”
+**Similar examples:** seat-belt reminder chime, confirmation dialogs before deleting files.
+
+**b. Design strategies for preventing or mitigating error:**
+**1. Add constraints:** Make it physically or logically impossible to commit serious errors _(e.g., plug shapes that prevent incorrect insertion)._
+**2. Forcing functions:** Interlocks, lock-ins, and lock-outs that guide correct order or prevent unsafe actions.
+**3. Confirmation & verification:** Ask users to double-check potentially harmful actions _(“Are you sure you want to delete this file?”)._
+**4. Undo and recovery:** Allow users to reverse actions easily _(e.g., “Undo,” “Restore from trash”)._
+**5. Feedback & visibility:** Make consequences of actions immediately clear.
+**6. Error messages that teach:** Messages should explain what happened, why, and how to fix it — not blame the user.
+
+**c. Fail-safes and safe states:**
+Design for “graceful failure”, when things go wrong, the system should go into a safe state.
+**Example:** Elevators stop at the nearest floor and open doors in case of malfunction.
+**“Fail-silent” vs. “Fail-active”:** better to fail in a way that alerts users than silently produce wrong output.
+
+**d. Redundancy and cross-checks:**
+In critical systems _(aviation, nuclear control, medical equipment)_, redundancy ensures one failure doesn’t lead to disaster.
+Designers often build “layers of defense”, each layer can catch errors missed by others _(the “Swiss cheese model” of safety)._
+
+### Detecting and Correcting Errors:
+
+
