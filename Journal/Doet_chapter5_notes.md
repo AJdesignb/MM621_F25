@@ -120,4 +120,37 @@ Designers often build “layers of defense”, each layer can catch errors misse
 
 ### Detecting and Correcting Errors:
 
+**a. Feedback for recovery:**
+The best systems make it obvious when an error has occurred and what the user can do about it.
+**Example:** Red highlight on incorrect form fields during online signup.
+Visual and auditory cues should direct the user’s attention to the problem.
+
+**b. Provide easy recovery paths:**
+Undo/Redo functions are the ultimate design for error: they allow experimentation and confidence.
+In physical design, reversible actions _(e.g., detachable parts, resettable circuits)_ serve a similar purpose.
+> Norman calls this “Designing for reversibility.”
+
+**c. Encouraging exploration:**
+When users know they can’t easily break the system, they explore more freely and learn faster.
+Error-tolerant design promotes learning and user confidence.
+
+### Automation and New Forms of Error:
+
+**a. The promise and paradox of automation:**
+Automation is introduced to reduce human error and workload, but paradoxically it creates new errors:
+**- Complacency:** humans lose attention when automation works well.
+**- Loss of skill:** over time, operators forget manual procedures.
+**- Mode confusion:** users may not realize what mode the system is in or when control shifts.
+**- Automation surprise:** the system acts unexpectedly, and humans don’t understand why.
+
+> Examples
+> Airplane autopilot systems: pilots become “monitors” instead of “controllers.” When an emergency occurs, they must suddenly re-engage — often too late.
+> Cars with adaptive cruise control or auto-brake: drivers over-trust the system, delaying reaction time.
+> Industrial control rooms: operators misinterpret automatic alarms due to information overload.
+
+**c. Design implications:**
+**Keep humans in the loop:** automation should assist, not replace, human judgment.
+Provide continuous situational awareness — the user should always know the system’s state and what it’s doing.
+Use transparency in automation: show when control shifts and what the machine’s logic is.
+Include manual overrides and training modes so operators retain skills.
 
