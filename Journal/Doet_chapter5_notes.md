@@ -150,7 +150,7 @@ Automation is introduced to reduce human error and workload, but paradoxically i
 
 **c. Design implications:**
 **Keep humans in the loop:** automation should assist, not replace, human judgment.
-Provide continuous situational awareness — the user should always know the system’s state and what it’s doing.
+Provide continuous situational awareness, the user should always know the system’s state and what it’s doing.
 Use transparency in automation: show when control shifts and what the machine’s logic is.
 Include manual overrides and training modes so operators retain skills.
 
