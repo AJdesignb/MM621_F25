@@ -151,6 +151,59 @@ Automation is introduced to reduce human error and workload, but paradoxically i
 **c. Design implications:**
 **Keep humans in the loop:** automation should assist, not replace, human judgment.
 Provide continuous situational awareness, the user should always know the system’s state and what it’s doing.
-Use transparency in automation: show when control shifts and what the machine’s logic is.
+Use **transparency** in automation: show when control shifts and what the machine’s logic is.
 Include manual overrides and training modes so operators retain skills.
+
+### Resilience Engineering — Designing Robust Systems
+
+**a. Resilience:** 
+The ability of a system to adapt, recover, and continue functioning after failure.
+Focus is not on preventing every possible error, but ensuring the system can bounce back gracefully.
+
+**b. Principles of resilient design:**
+
+**Anticipate** - foresee likely failure modes and design warnings or interlocks.
+**Monitor** - track system state and user actions to catch anomalies early.
+**Respond** - allow users or systems to correct problems quickly.
+**Learn** - incorporate lessons from past failures to improve future performance.
+
+**c. Making systems error-tolerant:**
+
+_Examples:_
+**Airplane design:** multiple redundant controls and autopilot layers.
+**Power grids:** built with parallel lines and backup generators.
+**Software:** autosave, version history, recovery mode.
+**The goal:** “human + machine” teamwork, where each compensates for the other’s weaknesses.
+
+**d. Error recovery loops:**
+
+After error detection > provide feedback > user interprets > corrects > feedback confirms fix.
+Norman calls this a continuous **“evaluation–execution”** cycle. Good design keeps this loop fast and visible.
+
+### Organizational Responses to Error
+
+**a. Blame culture vs learning culture:**
+Many industries _(especially healthcare, aviation, manufacturing)_ have historically blamed individuals for errors _(“operator error”)._
+Norman argues for a **“learning culture”** 
+_instead:_
+**Investigate** why the system allowed the error.
+**Improve design, procedures, and training** rather than punishing the user.
+**Encourage open error reporting** , without fear of reprisal.
+
+**b. Root cause analysis:**
+A practical tool: The **“Five Whys.”**
+Ask “why?” repeatedly (≈5 times) until reaching the fundamental cause.
+
+_Example:_
+Why did the system crash? → User pressed wrong switch.
+Why was the switch pressed? → It looked like the other control.
+Why do they look the same? → Poor labeling.
+Why poor labeling? → No design review process.
+Why no review process? → Organizational oversight.
+The true cause isn’t “human error” — it’s systemic.
+
+**c. Institutional learning:**
+Each error should become a data point for redesign, not a record of blame.
+Industries with strong safety cultures (like aviation) thrive because they study error instead of hiding it.
+Norman: “The best organizations treat errors as opportunities for learning.”
 
