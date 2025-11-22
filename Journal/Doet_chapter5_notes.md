@@ -205,5 +205,6 @@ The true cause isn’t “human error” — it’s systemic.
 **c. Institutional learning:**
 Each error should become a data point for redesign, not a record of blame.
 Industries with strong safety cultures (like aviation) thrive because they study error instead of hiding it.
-Norman: “The best organizations treat errors as opportunities for learning.”
+
+***Norman: “The best organizations treat errors as opportunities for learning.”***
 
