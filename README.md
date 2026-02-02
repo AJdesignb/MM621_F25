@@ -8,6 +8,8 @@ This is an image of a Golden below
 
 ![This is a picture of a dog](https://cdn.cdnstep.com/DkVh8JFXAujhfGjeWxmm/0.thumb128.webp)
 
+Here is a [Birdy Game](https://ajdesignb.github.io/MM621_F25/project_1_Birdy/index.html) I coded
+
 Check out my notes on my readings 
 
 [Chapter 1](https://github.com/AJdesignb/MM621_F25/blob/main/Journal/Doet_chapter1_notes)
