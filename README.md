@@ -4,16 +4,20 @@ Welcome to my collection of coding experiments, projects, and technical explorat
 
 Each project here represents a learning opportunity, a technical challenge, or simply an idea I wanted to bring to life. Feel free to explore, learn from, or build upon anything you find useful.
 
-### THE [BIRDY GAME](https://ajdesignb.github.io/MM621_F25/project_1_Birdy/index.html)
+### [THE BIRDY GAME](https://ajdesignb.github.io/MM621_F25/project_1_Birdy/index.html)
 
-## The Brief:
-Randomness is a concept that has fascinated and puzzled humans for centuries. Randomness has been associated with unpredictability, uncertainty, chaos, and disorder. By embodying this concept, you are tasked to create an interactive randomizer that pushes the concepts that we have covered. This experience should take input from the user and provide direct feedback. The experience should last at least one minute and feature several randomized interactions and results. This can be visually abstract or representational. Consider good UI/UX practices and design philosophies (mapping, feedback, signifiers, and affordances) and consider embedding your own custom graphics into your coded projects 
-This is my very own somewhat broken version of flappy bird.
+## About the Game
+
+An exploration of randomness through interactive gameplay—my own somewhat broken version of Flappy Bird.
+
+This project examines how randomness shapes user experience through unpredictable obstacles, varying difficulties, and emergent gameplay moments. Built as an interactive randomizer, the game transforms chaos and uncertainty into a minute-long challenge where player input meets algorithmic unpredictability.
+
+The experience features randomized pipe heights, spacing, and timing that create unique sessions with each playthrough. Through deliberate design choices in mapping, feedback, signifiers, and affordances, the game explores the tension between player control and system-generated chaos.
+
+**Note:** This is one of my early explorations in interactive design and game development. As I'm still learning, this version intentionally retains its quirks and "broken" elements as part of the creative process.
 
 
 
-
-Here is a [Birdy Game](https://ajdesignb.github.io/MM621_F25/project_1_Birdy/index.html) I coded
 
 Check out my notes on my readings 
 
