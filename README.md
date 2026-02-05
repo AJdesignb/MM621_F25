@@ -27,7 +27,18 @@ This project explores the creative potential of randomness in visual design, uti
 
 Built as an exercise in combining graphics with interactive functionality, the randomizer showcases how simple user input can unlock endless variations, transforming a static character into a living, evolving creation with each interaction.
 
-## My very own PORTFOLIO WEBSITE
+### 3 [Mini Data Viz](https://ajdesignb.github.io/MM621_F25/Mini_DataViz_Assingment/index.html) using Pantry Data & CSV Files
+**Link to my code**
+
+A hands-on dive into data visualization using real-world pantry food items and their nutritional information.
+
+For this project, I collected nutritional data from at least 5 food items, organized it into a Google Sheets table, and loaded it as a CSV file into P5.js. The challenge was to create a visualization that goes beyond basic bar graphs—something that makes the data immediately understandable while being visually distinct and engaging.
+
+This exploration taught me how to work with CSV data formats, parse nutritional information programmatically, and translate raw numbers into meaningful visual representations. Whether through custom graphics, creative orientations, or interactive elements that let users cycle through the data, the goal was to make complex nutritional information accessible at a glance.
+
+A stepping stone toward more complex data visualization projects, this mini-project helped solidify my understanding of how data, design, and code intersect to tell compelling stories.
+
+### 4 My very own PORTFOLIO WEBSITE
 
 My very own corner of the internet, coded entirely with JavaScript (the basics!), HTML, and CSS!
 
