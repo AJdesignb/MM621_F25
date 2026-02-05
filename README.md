@@ -6,7 +6,7 @@ Each project here represents a learning opportunity, a technical challenge, or s
 
 ### THE BIRDY GAME
 
-##The Brief:
+## The Brief:
 Randomness is is a concept that has fascinated and puzzled humans for centuries. Randomness has been associated with unpredictability, uncertainty, chaos, and disorder. By embodying this concept, you are tasked to create an interactive randomizer that pushes the concepts that we have covered. This experience should take input from the user and provide direct feedback. The experience should last at least one minute and feature several randomized interactions and results. This can be visually abstract or representational. Consider good UI/UX practices and design philosophies (mapping, feedback, signifiers, and affordances) and consider embedding your own custom graphics into your coded projects 
 This is my very own somewhat broken version of flappy bird.
 
