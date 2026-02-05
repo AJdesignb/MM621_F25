@@ -11,8 +11,6 @@ Randomness is is a concept that has fascinated and puzzled humans for centuries.
 This is my very own somewhat broken version of flappy bird.
 
 
-This is an image of a Golden below
-
 ![This is a picture of a dog](https://cdn.cdnstep.com/DkVh8JFXAujhfGjeWxmm/0.thumb128.webp)
 
 Here is a [Birdy Game](https://ajdesignb.github.io/MM621_F25/project_1_Birdy/index.html) I coded
