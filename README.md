@@ -17,7 +17,7 @@ The experience features randomized pipe heights, spacing, and timing that create
 **Note:** This is one of my early explorations in interactive design and game development. As I'm still learning, this version intentionally retains its quirks and "broken" elements as part of the creative process.
 
 ### 2. [CHARACTER RANDOMISER](https://ajdesignb.github.io/MM621_F25/Assignments/attempt%202/index.html)
-**Link to my code**
+**[Link to my code](https://github.com/AJdesignb/MM621_F25/tree/main/Assignments/attempt%202)**
 
 ## About the Project
 
