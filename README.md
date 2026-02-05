@@ -5,7 +5,7 @@ Welcome to my collection of coding experiments, projects, and technical explorat
 Each project here represents a learning opportunity, a technical challenge, or simply an idea I wanted to bring to life. Feel free to explore, learn from, or build upon anything you find useful.
 
 ### 1. [THE BIRDY GAME](https://ajdesignb.github.io/MM621_F25/project_1_Birdy/index.html)
-**Link to my Code**
+**[Link to my Code](https://github.com/AJdesignb/MM621_F25/tree/main/project_1_Birdy)**
 
 ## About the Game
 An exploration of randomness through interactive gameplay—my own somewhat broken version of Flappy Bird.
