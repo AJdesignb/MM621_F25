@@ -35,7 +35,7 @@ This is basically me throwing everything I've learned about web development into
 
 From making buttons do things with JavaScript to wrestling CSS into submission for responsive designs, this website is my digital playground and proof that I'm figuring this whole web development thing out, one line of code at a time. Like any good project, it's a forever work in progress—always evolving as I learn new things.
 
-**[Check it out!](https://ajdesignb.github.io/portfolio/)** *(replace # with your actual link)*
+**[Check it out!](https://ajdesignb.github.io/portfolio/)** 
 
 
 
