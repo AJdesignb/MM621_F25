@@ -4,14 +4,14 @@ Welcome to my collection of coding experiments, projects, and technical explorat
 
 Each project here represents a learning opportunity, a technical challenge, or simply an idea I wanted to bring to life. Feel free to explore, learn from, or build upon anything you find useful.
 
-### THE BIRDY GAME
+### THE [BIRDY GAME](https://ajdesignb.github.io/MM621_F25/project_1_Birdy/index.html)
 
 ## The Brief:
-Randomness is is a concept that has fascinated and puzzled humans for centuries. Randomness has been associated with unpredictability, uncertainty, chaos, and disorder. By embodying this concept, you are tasked to create an interactive randomizer that pushes the concepts that we have covered. This experience should take input from the user and provide direct feedback. The experience should last at least one minute and feature several randomized interactions and results. This can be visually abstract or representational. Consider good UI/UX practices and design philosophies (mapping, feedback, signifiers, and affordances) and consider embedding your own custom graphics into your coded projects 
+Randomness is a concept that has fascinated and puzzled humans for centuries. Randomness has been associated with unpredictability, uncertainty, chaos, and disorder. By embodying this concept, you are tasked to create an interactive randomizer that pushes the concepts that we have covered. This experience should take input from the user and provide direct feedback. The experience should last at least one minute and feature several randomized interactions and results. This can be visually abstract or representational. Consider good UI/UX practices and design philosophies (mapping, feedback, signifiers, and affordances) and consider embedding your own custom graphics into your coded projects 
 This is my very own somewhat broken version of flappy bird.
 
 
-![This is a picture of a dog](https://cdn.cdnstep.com/DkVh8JFXAujhfGjeWxmm/0.thumb128.webp)
+
 
 Here is a [Birdy Game](https://ajdesignb.github.io/MM621_F25/project_1_Birdy/index.html) I coded
 
