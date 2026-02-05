@@ -27,5 +27,15 @@ This project explores the creative potential of randomness in visual design, uti
 
 Built as an exercise in combining graphics with interactive functionality, the randomizer showcases how simple user input can unlock endless variations, transforming a static character into a living, evolving creation with each interaction.
 
+## My very own PORTFOLIO WEBSITE
+
+My very own corner of the internet, coded entirely with JavaScript (the basics!), HTML, and CSS!
+
+This is basically me throwing everything I've learned about web development into one place and seeing what sticks. It's a wild mix of interactive elements, carefully crafted layouts, and styling choices that represent countless hours of trial, error, and those glorious "aha!" moments when the code finally works.
+
+From making buttons do things with JavaScript to wrestling CSS into submission for responsive designs, this website is my digital playground and proof that I'm figuring this whole web development thing out, one line of code at a time. Like any good project, it's a forever work in progress—always evolving as I learn new things.
+
+**[Check it out!](https://ajdesignb.github.io/portfolio/)** *(replace # with your actual link)*
+
 
 
